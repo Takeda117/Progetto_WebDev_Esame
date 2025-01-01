@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Luca Benazzi's website for EPICODE's Web Development exam" />
+  <meta name="keywords"
+    content="Luca Benazzi, personal website, coaching, university, gamedeveloper, experiences, portfolio, EPICODE" />
+  <meta name="author" content="Luca Alioscia Benazzi" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <link rel="stylesheet" href="style.css" />
+  <title>Luca Benazzi - Portfolio</title>
+</head>
+
+<!-- Enjoy my crazy code! During the code my abilities and proficiencies with the use of the languages has increased.
+ Because of this reason there can be different approaches to solve existing problems or fixing bugs. Especially with CSS.
+ For whatever question about the logic behind my code, I would love to answer during the oral exam.
+ 
+ I hope that you will appreciate my WebSite and it will not be a boring experience :D -->
+
+<body>
+
+
+  <!-- Header -->
+  <header>
+    <nav aria-label="Navigation bar">
+      <!-- menu Left -->
+      <div class="nav-left">
+        <div class="logo">
+          <a href="#" id="dragon" class="fa-solid fa-dragon fa-2xl" aria-label="Home"></a>
+        </div>
+      </div>
+
+
+      <!-- Container Hamburger menu -->
+      <div id="container-right">
+        <!-- Nav right -->
+        <div class="nav-right">
+          <div class="menu-item">
+            <ul aria-label="Main Menu">
+              <li class="nav-item"><a href="#about-me">About Me</a></li>
+              <li class="nav-item"><a href="#abilities">Abilities</a></li>
+              <li class="nav-item"><a href="#my-experiences">Experiences</a></li>
+              <li class="nav-item"><a href="#contact-section" id="contact" class="contact-box">
+                  <h5>Contact me</h5>
+                </a></li>
+            </ul>
+          </div>
+          <div id="hamburger-icon" class="hamburger" aria-label="Open Menu">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <div id="close-icon" aria-label="Close Menu"><i class="fa-solid fa-xmark"></i></div>
+
+
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+
+  <!-- body -->
+
+  <section class="section-overlay" aria-label="hero-presentation">
+    <div id="text-intro">
+      <div class="text-overlay">
+        <h3>Welcome on my page!</h3>
+        <h1>I'm Luca Benazzi</h1>
+        <h3>I'm studying to become a <span class="inner-text"></span></h3>
+        <h2></h2>
+      </div>
+      <div id="luca-img">
+        <img src="./Assets/Luca_Alioscia_Benazzi.jpeg" alt="Luca Benazzi">
+      </div>
+    </div>
+
+  </section>
+
+
+  <main id="main-box">
+
+    <section id="center" aria-label="Main text presentation">
+      <div id="about-me">
+        <div class="about-me-title" aria-label="About Me">
+          <h2 class="general-title">About Me</h2>
+        </div>
+        <div class="about-me-container">
+          <div class="animation-box">
+            <div class="about-inner">
+              <div class="about-frontbox" aria-label="Vision card">
+                <h3>Vision</h3>
+                <p> Why am I studying computer engineering?</p>
+              </div>
+              <div class="about-backbox" aria-label="Creativity card">
+                <h3>Creativity</h3>
+                <p>Through coding, you can create everything.
+                  Why not create a video game? Or an AI for video games?
+                  Or a video game on a website where you can interact with an AI? </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="animation-box">
+            <div class="about-inner">
+              <div class="about-frontbox" aria-label="GameDev card">
+                <h3>Game Dev</h3>
+                <p>A videogamer lives as many lives as the games he plays.
+                  Every world is a different experience.
+                </p>
+              </div>
+              <div class="about-backbox" aria-label="After Highschool card">
+
+                <h3>After Highschool</h3>
+                <p>In 2017 I studied for a year at a game design academy.
+                  Today I am willing to study to create new worlds and new experiences.
+                </p>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="animation-box">
+            <div class="about-inner">
+              <div class="about-frontbox" aria-label="Epicode card">
+                <h3>Epicode</h3>
+                <p>Where digital talents are being built,
+                  on the way to becoming a Hero.
+                </p>
+              </div>
+              <div class="about-backbox" aria-label="New chapter card">
+
+                <h3>A new chapter</h3>
+                <p>After travelling abroad for almost two years,
+                  I decided to move back and start a new challenge in life.
+                </p>
+
+              </div>
+            </div>
+          </div>
+          <div class="animation-box">
+            <div class="about-inner">
+              <div class="about-frontbox" aria-label="Coaching card">
+                <h3>Coaching</h3>
+                <p>What have I been doing before?
+                </p>
+              </div>
+              <div class="about-backbox" aria-label="My purpose card">
+
+                <h3>My purpose</h3>
+                <p>I wish that everyone can find the way to know themselves better.
+                </p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="text-center">
+        <div rel="testo centrale" class="text-overview ">
+          <h1 id="abilities" class="general-title">Abilities</h1>
+        </div>
+        <!-- Carousel -->
+        <section>
+          <div class="carousel" data-carousel aria-label="Carousel-slideshow">
+            <button class="carousel-button prev" data-carousel-button="prev" aria-label="Previous Slide"><i
+                class="fa-solid fa-chevron-left"></i></button>
+            <button class="carousel-button next" data-carousel-button="next" aria-label="Next Slide"><i
+                class="fa-solid fa-chevron-right"></i></button>
+            <ul data-slides>
+              <li class="slide" data-active>
+                <h1>Soft Skills</h1>
+                <div class="img-skills">
+
+                  <div class="inner-image"><img src="./Assets/Skill Icons/Soft Skills/critical_thinking.png"
+                      alt="Critical-Thinking">
+                    <div class="soft-skills">
+                      <h4>Critical Thinking</h4>
+                    </div>
+                  </div>
+
+                  <div class="inner-image"><img src="./Assets/Skill Icons/Soft Skills/effective_communication.png"
+                      alt="Effective-Communication">
+                    <div class="soft-skills">
+                      <h4>Effective Communication</h4>
+                    </div>
+                  </div>
+
+                  <div class="inner-image"><img src="./Assets/Skill Icons/Soft Skills/leadership.png" alt="Leadership">
+                    <div class="soft-skills">
+                      <h4>Leadership</h4>
+                    </div>
+                  </div>
+
+                  <div class="inner-image"><img src="./Assets/Skill Icons/Soft Skills/teamwork.png" alt="Team-Work">
+                    <div class="soft-skills">
+                      <h4>Team Work</h4>
+                    </div>
+                  </div>
+
+                  <div class="inner-image"><img src="./Assets/Skill Icons/Soft Skills/resilience.png" alt="Resilience">
+                    <div class="soft-skills">
+                      <h4>Resilience</h4>
+                    </div>
+                  </div>
+                </div>
+
+
+              </li>
+              <li class="slide">
+                <h1>Hard Skills</h1>
+                <div class="img-skills">
+                  <div class="inner-image"><img src="./Assets/Skill Icons/Hard Skills/coaching.png" alt="Coaching">
+                    <div class="soft-skills">
+                      <h4>Coaching</h4>
+                    </div>
+                  </div>
+                  <div class="inner-image"><img src="./Assets/Skill Icons/Hard Skills/project-management.png"
+                      alt="Project Management">
+                    <div class="soft-skills">
+                      <h4>Project Management</h4>
+                    </div>
+                  </div>
+                  <div class="inner-image"><img src="./Assets/Skill Icons/Hard Skills/sales.png" alt="Sales">
+                    <div class="soft-skills">
+                      <h4>Sales</h4>
+                    </div>
+                  </div>
+                  <div class="inner-image"><img src="./Assets/Skill Icons/Hard Skills/sap.png" alt="SAP">
+                    <div class="soft-skills">
+                      <h4>SAP</h4>
+                    </div>
+                  </div>
+
+                </div>
+              </li>
+              <li class="slide">
+                <h1>Coding Skills</h1>
+
+                <div class="img-skills">
+                  <div class="inner-image"><img src="./Assets/Skill Icons/csharp.png" alt="Csharp">
+                    <div class="progress-container">
+                      <div class="progress-bar">
+                        <span>20%</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="inner-image"><img src="./Assets/Skill Icons/css.png" alt="CSS">
+                    <div class="progress-container">
+                      <div class="progress-bar">
+                        <span>50%</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="inner-image"><img src="./Assets/Skill Icons/html.png" alt="HTML">
+                    <div class="progress-container">
+                      <div class="progress-bar">
+                        <span>50%</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="inner-image"><img src="./Assets/Skill Icons/javascript.png" alt="JS">
+                    <div class="progress-container">
+                      <div class="progress-bar">
+                        <span>40%</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="inner-image"><img src="./Assets/Skill Icons/python.png" alt="Python">
+                    <div class="progress-container">
+                      <div class="progress-bar">
+                        <span>60%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+        </section>
+
+        <div class="main-text" aria-label="my-experiences">
+          <h1 class="general-title" id="my-experiences">My Experiences</h1>
+          <div class="job" aria-label="Future job experience">
+            <div class="left-job">
+              <h2>I am going to do some code</h2>
+              <h4>Future Employer</h4>
+              <h6>2025</h6>
+            </div>
+            <div class="right-job">
+              <ul aria-label="Future job description">
+                <li>Do you want to hire me?</li>
+              </ul>
+            </div>
+          </div>
+          <div class="job" aria-label="Chef de Rang experience">
+            <div class="left-job">
+              <h2>Chef de Rang</h2>
+              <h4>C Restaurant - Perth</h4>
+              <h6>2023-2024</h6>
+            </div>
+            <div class="right-job">
+              <ul aria-label="Chef de Rang main tasks">
+                <li>Trained and mentored new waitstaff</li>
+                <li>Served high-profile guests such as the Italian Ambassador to Australia</li>
+                <li>Achieved top sales in internal product contests</li>
+              </ul>
+            </div>
+          </div>
+          <div class="job" aria-label="Business Coach experience">
+            <div class="left-job">
+              <h2>Business Coach</h2>
+              <h4>Risolvi il tuo debito</h4>
+              <h6>2021-2022</h6>
+            </div>
+            <div class="right-job">
+              <ul aria-label="Business Coach main tasks">
+                <li>Trained new staff on corporate sales strategies, sales objectives, and IT tools</li>
+                <li>Analyzed KPIs for new hires and coordinated with other international offices via
+                  video conferences
+                  and Excel reports</li>
+                <li>Supported sales teams and Lead Management in improving sales performance</li>
+                <li>Contributed to achieving the best sales performance for the Italian area</li>
+              </ul>
+            </div>
+          </div>
+          <div class="job" aria-label="Sales Manager experience">
+            <div class="left-job">
+              <h2>Sales Manager</h2>
+              <h4>Italia Gas & Luce</h4>
+              <h6>2020-2021</h6>
+            </div>
+            <div class="right-job">
+              <ul aria-label="Sales Manager main tasks">
+                <li>Sold energy services to clients through training on new energy solutions and
+                  customer loyalty
+                  strategies</li>
+                <li>Represented the company brand at local events</li>
+                <li>Recruited and trained new agents</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- Contact form -->
+    <section id="contact-section">
+      <div class="contact-form-container" data-form>
+        <h2>Contact me :D</h2>
+        <form id="contact-form">
+          <div class="inner-form">
+            <label for="name">Name</label>
+            <input type="text" minlength="3" maxlength="14" id="name" name="name" placeholder="Your Name" required>
+            <span id="name-error"></span>
+          </div>
+          <div class="inner-form">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <span id="email-error"></span>
+          </div>
+          <div class="inner-form">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="Your Phone Number" required>
+            <span id="phone-error"></span>
+          </div>
+          <div class="inner-form">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Your Message" rows="4" required></textarea>
+            <span id="message-error"></span>
+          </div>
+          <div class="inner-form submit">
+            <button type="submit" id="submit-button" aria-label="Submit your details so I can contact you">
+              >>Contact me<< </button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-box">
+      <a href="https://www.linkedin.com/in/luca-benazzi/"><i class="fa-brands p-5 fa-2xl fa-linkedin"
+          alt="linkedin"></i></a>
+      <a href="mailto:benazzi.luca17@gmail.com"><i class="fa-solid p-5 fa-envelope fa-2xl" alt="email-contact"></i></a>
+      <a href="https://github.com/Takeda117"><i class="fa-brands p-5 fa-github fa-2xl" alt="Github"></i></a>
+      <a href="https://www.instagram.com/takedatv/"><i class="fa-brands p-5 fa-instagram fa-2xl"
+          alt="instagram"></i></a>
+    </div>
+  </footer>
+  <script src="./script.js"></script>
+</body>
+
+</html>
+<!-- Sources: Class lessons, youtube, websites for documentations, mentoring by older students (who have done Epicode bootcamp courses before), help from the tutor -->
